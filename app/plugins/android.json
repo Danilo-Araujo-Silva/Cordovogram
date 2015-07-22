@@ -19,7 +19,7 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.garoudan.pandora"
+            "PACKAGE_NAME": "com.garoudan.cordovogram"
         }
     },
     "dependent_plugins": {}

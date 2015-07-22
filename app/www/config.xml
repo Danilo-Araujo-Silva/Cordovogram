@@ -3,19 +3,19 @@
 	encoding='utf-8'
 ?>
 <widget
-	id="com.garoudan.pandora"
+	id="com.garoudan.cordovogram"
 	version="0.0.1"
 	xmlns="http://www.w3.org/ns/widgets"
 	xmlns:cdv="http://cordova.apache.org/ns/1.0"
 >
-    <name>#Pandora</name>
+    <name>Cordovogram</name>
     <description>
-        Application to exchange (send and receive) encrypted multimedia (texts, images, videos) messages.
+        Apache Cordova application that encapsulates Telegram (or more specifically Webogram).
     </description>
     <author email="silva.danilo.araujo@gmail.com" href="https://goo.gl/a1yEh3">
         Danilo Araújo Silva
     </author>
-    <content src="webogram/app/index.html" />
+    <content src="webogram/index.html" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -32,8 +32,8 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     
-    <preference name="fullscreen" value="true" />
-    <preference name="webviewbounce" value="true" />
+<!--     <preference name="fullscreen" value="true" /> -->
+<!--     <preference name="webviewbounce" value="true" /> -->
     
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
